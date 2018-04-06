@@ -59,6 +59,9 @@ function playing(e) {
                 sound = "Lounge 2"
                 label.innerHTML = "L1"
             break; 
+            case "12":
+                location.reload();
+            break;
             default: 
                 sound = ""
             break; 
